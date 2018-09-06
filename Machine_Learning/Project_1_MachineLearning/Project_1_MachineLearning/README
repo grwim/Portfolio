@@ -1,0 +1,6 @@
+use included Makefile to build this project:
+
+1) To build the dependency list, on the command line, type 'make depend'.
+2) To build the project, on the command line, type 'make'.
+3) to run the project, type ‘./a.out -t (filename as train set) -T (filename as train set)
+	where -T or -t can be passed as single parameters 

@@ -1,0 +1,19 @@
+main.o: main.cpp Attribute.h Example.h AttributeFactory.h \
+  NominalAttribute.h NumericAttribute.h Attributes.h TrainTestSets.h \
+  DataSet.h Examples.h
+Attribute.o: Attribute.cpp Attribute.h
+NumericAttribute.o: NumericAttribute.cpp NumericAttribute.h Attribute.h
+AttributeFactory.o: AttributeFactory.cpp AttributeFactory.h Attribute.h \
+  NominalAttribute.h NumericAttribute.h
+Attributes.o: Attributes.cpp Attributes.h Attribute.h AttributeFactory.h \
+  NominalAttribute.h NumericAttribute.h
+NominalAttribute.o: NominalAttribute.cpp NominalAttribute.h Attribute.h
+DataSet.o: DataSet.cpp DataSet.h Attributes.h Attribute.h \
+  AttributeFactory.h NominalAttribute.h NumericAttribute.h Examples.h \
+  Example.h
+TrainTestSets.o: TrainTestSets.cpp TrainTestSets.h DataSet.h Attributes.h \
+  Attribute.h AttributeFactory.h NominalAttribute.h NumericAttribute.h \
+  Examples.h Example.h
+Example.o: Example.cpp Example.h
+Examples.o: Examples.cpp Examples.h Example.h Attributes.h Attribute.h \
+  AttributeFactory.h NominalAttribute.h NumericAttribute.h

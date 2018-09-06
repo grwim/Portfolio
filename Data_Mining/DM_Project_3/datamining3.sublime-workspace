@@ -1,0 +1,447 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"large",
+				"largestK	statement"
+			],
+			[
+				"count",
+				"countOnK	statement"
+			],
+			[
+				"larg",
+				"largestK	statement"
+			],
+			[
+				"pr",
+				"print	function"
+			],
+			[
+				"prod",
+				"products	param"
+			],
+			[
+				"s",
+				"subset	forstmt"
+			],
+			[
+				"Item",
+				"itemSet	statement"
+			],
+			[
+				"list",
+				"listOfSubsets	statement"
+			],
+			[
+				"foun",
+				"found_set"
+			],
+			[
+				"item",
+				"itemSet	statement"
+			],
+			[
+				"fre",
+				"freqItemSet"
+			],
+			[
+				"my",
+				"myList	statement"
+			],
+			[
+				"cond",
+				"condifience"
+			],
+			[
+				"set",
+				"set_parent	statement"
+			],
+			[
+				"suppo",
+				"supportDict	statement"
+			],
+			[
+				"it",
+				"itemsetWithSupport	forstmt"
+			],
+			[
+				"sup",
+				"supportDict	statement"
+			],
+			[
+				"tra",
+				"transactions	param"
+			],
+			[
+				"freli",
+				"freqList_prelim"
+			],
+			[
+				"tran",
+				"transaction	forstmt"
+			],
+			[
+				"trans",
+				"transactions	statement"
+			],
+			[
+				"pro",
+				"products	statement"
+			],
+			[
+				"produ",
+				"product"
+			],
+			[
+				"include",
+				"include_support"
+			],
+			[
+				"inclu",
+				"include_support"
+			],
+			[
+				"supp",
+				"support_minThresh	statement"
+			],
+			[
+				"bub",
+				"bubble_sort"
+			],
+			[
+				"freque",
+				"frequentizeAndOrder	function"
+			],
+			[
+				"transac",
+				"transaction"
+			],
+			[
+				"name",
+				"namedtuple	function"
+			],
+			[
+				"def",
+				"defaultdict	class"
+			],
+			[
+				"cre",
+				"createNode	function"
+			],
+			[
+				"val",
+				"value	statement"
+			],
+			[
+				"non",
+				"None	keyword"
+			],
+			[
+				"temp",
+				"tempTransaction	statement"
+			],
+			[
+				"T",
+				"True	instance"
+			],
+			[
+				"to",
+				"toBeRemoved	statement"
+			],
+			[
+				"inde",
+				"index_inner	forstmt"
+			],
+			[
+				"remo",
+				"remove_values_from_list	function"
+			],
+			[
+				"r",
+				"remove	function"
+			],
+			[
+				"ind",
+				"index_inner	forstmt"
+			],
+			[
+				"tr",
+				"transactions"
+			],
+			[
+				"li",
+				"list_element	statement"
+			],
+			[
+				"prun",
+				"prune_onSupport"
+			],
+			[
+				"ra",
+				"range	function"
+			],
+			[
+				"a",
+				"append	function"
+			],
+			[
+				"load_",
+				"load_transactions	function"
+			],
+			[
+				"nae",
+				"name	statement"
+			],
+			[
+				"load",
+				"load_products	function"
+			],
+			[
+				"line",
+				"lineList	statement"
+			],
+			[
+				"lin",
+				"lineList"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"last_filter": "pac",
+		"selected_items":
+		[
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"user",
+				"Preferences: Package Control Settings – User"
+			],
+			[
+				"packages uese",
+				"Preferences: Package Control Settings – User"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"settings",
+				"Preferences: Settings - User"
+			],
+			[
+				"spacegr",
+				"Preferences: Package Control Settings – User"
+			],
+			[
+				"setting",
+				"Preferences: Package Control Settings – User"
+			],
+			[
+				"default",
+				"Preferences: Settings - Default"
+			],
+			[
+				"packe",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"get",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 457.0
+	},
+	"console":
+	{
+		"height": 233.0,
+		"history":
+		[
+			"pip install -U numpy scipy scikit-learn",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/Konrad/Desktop/Data Mining/DataMining_Project3/DataMining_Project3"
+	],
+	"file_history":
+	[
+		"/Users/Konrad/Desktop/DataMiningP2/AssociationRuleMining.sublime-workspace",
+		"/Users/Konrad/Desktop/DataMiningP2/main.py",
+		"/Users/Konrad/Desktop/DataMiningP2/AssociationRuleMining.sublime-project",
+		"/Users/Konrad/Desktop/DataMiningP2/test.py",
+		"/Users/Konrad/Library/Application Support/Sublime Text 3/Packages/User/Anaconda.sublime-settings",
+		"/Users/Konrad/Library/Application Support/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/Users/Konrad/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/Konrad/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"find_with",
+			"confidence",
+			"confiden",
+			"confdience",
+			"include_support",
+			"count",
+			"print",
+			"listy",
+			"lisy",
+			"products",
+			"find_fre",
+			"find",
+			"prefix",
+			"find_frequent_itemsets",
+			"print",
+			"sideb",
+			"side"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 245.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Anaconda Python Builder",
+	"project": "datamining3.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 209.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

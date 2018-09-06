@@ -1,0 +1,337 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7136DDB91C7E2848005762DC /* Attribute.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7136DDA71C7E2848005762DC /* Attribute.cpp */; };
+		7136DDBA1C7E2848005762DC /* AttributeFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7136DDA81C7E2848005762DC /* AttributeFactory.cpp */; };
+		7136DDBB1C7E2848005762DC /* NumericAttribute.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7136DDAB1C7E2848005762DC /* NumericAttribute.cpp */; };
+		7136DDBC1C7E2848005762DC /* NominalAttribute.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7136DDAD1C7E2848005762DC /* NominalAttribute.cpp */; };
+		7136DDBD1C7E2848005762DC /* Attributes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7136DDAF1C7E2848005762DC /* Attributes.cpp */; };
+		7136DDBE1C7E2848005762DC /* TrainTestSets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7136DDB11C7E2848005762DC /* TrainTestSets.cpp */; };
+		7136DDBF1C7E2848005762DC /* DataSet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7136DDB31C7E2848005762DC /* DataSet.cpp */; };
+		7136DDC01C7E2848005762DC /* Example.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7136DDB51C7E2848005762DC /* Example.cpp */; };
+		7136DDC11C7E2848005762DC /* Examples.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7136DDB71C7E2848005762DC /* Examples.cpp */; };
+		7136DDC41C7E2914005762DC /* Classifier.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7136DDC21C7E2914005762DC /* Classifier.cpp */; };
+		7136DDC71C7E292E005762DC /* Performance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7136DDC51C7E292E005762DC /* Performance.cpp */; };
+		7136DDCA1C7E293B005762DC /* KNN.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7136DDC81C7E293B005762DC /* KNN.cpp */; };
+		7136DDD01C7E2976005762DC /* NaiveBayes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7136DDCE1C7E2976005762DC /* NaiveBayes.cpp */; };
+		7136DDD41C7FD519005762DC /* Evaluator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7136DDD21C7FD519005762DC /* Evaluator.cpp */; };
+		7136DDD71C8330ED005762DC /* knn-main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7136DDD51C8330ED005762DC /* knn-main.cpp */; };
+		7136DDDA1C833104005762DC /* nb-main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7136DDD81C833104005762DC /* nb-main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7136DD991C7E27FF005762DC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7136DD9B1C7E27FF005762DC /* Project_2_MachineLearning */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Project_2_MachineLearning; sourceTree = BUILT_PRODUCTS_DIR; };
+		7136DDA61C7E2848005762DC /* Attribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Attribute.h; path = ../../Project_1_MachineLearning/Project_1_MachineLearning/Attribute.h; sourceTree = "<group>"; };
+		7136DDA71C7E2848005762DC /* Attribute.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Attribute.cpp; path = ../../Project_1_MachineLearning/Project_1_MachineLearning/Attribute.cpp; sourceTree = "<group>"; };
+		7136DDA81C7E2848005762DC /* AttributeFactory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AttributeFactory.cpp; path = ../../Project_1_MachineLearning/Project_1_MachineLearning/AttributeFactory.cpp; sourceTree = "<group>"; };
+		7136DDA91C7E2848005762DC /* AttributeFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AttributeFactory.h; path = ../../Project_1_MachineLearning/Project_1_MachineLearning/AttributeFactory.h; sourceTree = "<group>"; };
+		7136DDAA1C7E2848005762DC /* NumericAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NumericAttribute.h; path = ../../Project_1_MachineLearning/Project_1_MachineLearning/NumericAttribute.h; sourceTree = "<group>"; };
+		7136DDAB1C7E2848005762DC /* NumericAttribute.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = NumericAttribute.cpp; path = ../../Project_1_MachineLearning/Project_1_MachineLearning/NumericAttribute.cpp; sourceTree = "<group>"; };
+		7136DDAC1C7E2848005762DC /* NominalAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NominalAttribute.h; path = ../../Project_1_MachineLearning/Project_1_MachineLearning/NominalAttribute.h; sourceTree = "<group>"; };
+		7136DDAD1C7E2848005762DC /* NominalAttribute.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = NominalAttribute.cpp; path = ../../Project_1_MachineLearning/Project_1_MachineLearning/NominalAttribute.cpp; sourceTree = "<group>"; };
+		7136DDAE1C7E2848005762DC /* Attributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Attributes.h; path = ../../Project_1_MachineLearning/Project_1_MachineLearning/Attributes.h; sourceTree = "<group>"; };
+		7136DDAF1C7E2848005762DC /* Attributes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Attributes.cpp; path = ../../Project_1_MachineLearning/Project_1_MachineLearning/Attributes.cpp; sourceTree = "<group>"; };
+		7136DDB01C7E2848005762DC /* TrainTestSets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TrainTestSets.h; path = ../../Project_1_MachineLearning/Project_1_MachineLearning/TrainTestSets.h; sourceTree = "<group>"; };
+		7136DDB11C7E2848005762DC /* TrainTestSets.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TrainTestSets.cpp; path = ../../Project_1_MachineLearning/Project_1_MachineLearning/TrainTestSets.cpp; sourceTree = "<group>"; };
+		7136DDB21C7E2848005762DC /* DataSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DataSet.h; path = ../../Project_1_MachineLearning/Project_1_MachineLearning/DataSet.h; sourceTree = "<group>"; };
+		7136DDB31C7E2848005762DC /* DataSet.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DataSet.cpp; path = ../../Project_1_MachineLearning/Project_1_MachineLearning/DataSet.cpp; sourceTree = "<group>"; };
+		7136DDB41C7E2848005762DC /* Example.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Example.h; path = ../../Project_1_MachineLearning/Project_1_MachineLearning/Example.h; sourceTree = "<group>"; };
+		7136DDB51C7E2848005762DC /* Example.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Example.cpp; path = ../../Project_1_MachineLearning/Project_1_MachineLearning/Example.cpp; sourceTree = "<group>"; };
+		7136DDB61C7E2848005762DC /* Examples.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Examples.h; path = ../../Project_1_MachineLearning/Project_1_MachineLearning/Examples.h; sourceTree = "<group>"; };
+		7136DDB71C7E2848005762DC /* Examples.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Examples.cpp; path = ../../Project_1_MachineLearning/Project_1_MachineLearning/Examples.cpp; sourceTree = "<group>"; };
+		7136DDC21C7E2914005762DC /* Classifier.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Classifier.cpp; sourceTree = "<group>"; };
+		7136DDC31C7E2914005762DC /* Classifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Classifier.h; sourceTree = "<group>"; };
+		7136DDC51C7E292E005762DC /* Performance.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Performance.cpp; sourceTree = "<group>"; };
+		7136DDC61C7E292E005762DC /* Performance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Performance.h; sourceTree = "<group>"; };
+		7136DDC81C7E293B005762DC /* KNN.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = KNN.cpp; sourceTree = "<group>"; };
+		7136DDC91C7E293B005762DC /* KNN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNN.h; sourceTree = "<group>"; };
+		7136DDCE1C7E2976005762DC /* NaiveBayes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NaiveBayes.cpp; sourceTree = "<group>"; };
+		7136DDCF1C7E2976005762DC /* NaiveBayes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NaiveBayes.h; sourceTree = "<group>"; };
+		7136DDD21C7FD519005762DC /* Evaluator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Evaluator.cpp; sourceTree = "<group>"; };
+		7136DDD31C7FD519005762DC /* Evaluator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Evaluator.h; sourceTree = "<group>"; };
+		7136DDD51C8330ED005762DC /* knn-main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "knn-main.cpp"; sourceTree = "<group>"; };
+		7136DDD61C8330ED005762DC /* knn-main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "knn-main.h"; sourceTree = "<group>"; };
+		7136DDD81C833104005762DC /* nb-main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "nb-main.cpp"; sourceTree = "<group>"; };
+		7136DDD91C833104005762DC /* nb-main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "nb-main.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7136DD981C7E27FF005762DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7136DD921C7E27FF005762DC = {
+			isa = PBXGroup;
+			children = (
+				7136DD9D1C7E27FF005762DC /* Project_2_MachineLearning */,
+				7136DD9C1C7E27FF005762DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7136DD9C1C7E27FF005762DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7136DD9B1C7E27FF005762DC /* Project_2_MachineLearning */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7136DD9D1C7E27FF005762DC /* Project_2_MachineLearning */ = {
+			isa = PBXGroup;
+			children = (
+				7136DDD51C8330ED005762DC /* knn-main.cpp */,
+				7136DDD61C8330ED005762DC /* knn-main.h */,
+				7136DDD81C833104005762DC /* nb-main.cpp */,
+				7136DDD91C833104005762DC /* nb-main.h */,
+				7136DDA61C7E2848005762DC /* Attribute.h */,
+				7136DDA71C7E2848005762DC /* Attribute.cpp */,
+				7136DDA81C7E2848005762DC /* AttributeFactory.cpp */,
+				7136DDA91C7E2848005762DC /* AttributeFactory.h */,
+				7136DDAA1C7E2848005762DC /* NumericAttribute.h */,
+				7136DDAB1C7E2848005762DC /* NumericAttribute.cpp */,
+				7136DDAC1C7E2848005762DC /* NominalAttribute.h */,
+				7136DDAD1C7E2848005762DC /* NominalAttribute.cpp */,
+				7136DDAE1C7E2848005762DC /* Attributes.h */,
+				7136DDAF1C7E2848005762DC /* Attributes.cpp */,
+				7136DDB01C7E2848005762DC /* TrainTestSets.h */,
+				7136DDB11C7E2848005762DC /* TrainTestSets.cpp */,
+				7136DDB21C7E2848005762DC /* DataSet.h */,
+				7136DDB31C7E2848005762DC /* DataSet.cpp */,
+				7136DDB41C7E2848005762DC /* Example.h */,
+				7136DDB51C7E2848005762DC /* Example.cpp */,
+				7136DDB61C7E2848005762DC /* Examples.h */,
+				7136DDB71C7E2848005762DC /* Examples.cpp */,
+				7136DDC21C7E2914005762DC /* Classifier.cpp */,
+				7136DDC31C7E2914005762DC /* Classifier.h */,
+				7136DDC51C7E292E005762DC /* Performance.cpp */,
+				7136DDC61C7E292E005762DC /* Performance.h */,
+				7136DDC81C7E293B005762DC /* KNN.cpp */,
+				7136DDC91C7E293B005762DC /* KNN.h */,
+				7136DDCE1C7E2976005762DC /* NaiveBayes.cpp */,
+				7136DDCF1C7E2976005762DC /* NaiveBayes.h */,
+				7136DDD21C7FD519005762DC /* Evaluator.cpp */,
+				7136DDD31C7FD519005762DC /* Evaluator.h */,
+			);
+			path = Project_2_MachineLearning;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7136DD9A1C7E27FF005762DC /* Project_2_MachineLearning */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7136DDA21C7E27FF005762DC /* Build configuration list for PBXNativeTarget "Project_2_MachineLearning" */;
+			buildPhases = (
+				7136DD971C7E27FF005762DC /* Sources */,
+				7136DD981C7E27FF005762DC /* Frameworks */,
+				7136DD991C7E27FF005762DC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Project_2_MachineLearning;
+			productName = Project_2_MachineLearning;
+			productReference = 7136DD9B1C7E27FF005762DC /* Project_2_MachineLearning */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7136DD931C7E27FF005762DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Konrad Rauscher";
+				TargetAttributes = {
+					7136DD9A1C7E27FF005762DC = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 7136DD961C7E27FF005762DC /* Build configuration list for PBXProject "Project_2_MachineLearning" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7136DD921C7E27FF005762DC;
+			productRefGroup = 7136DD9C1C7E27FF005762DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7136DD9A1C7E27FF005762DC /* Project_2_MachineLearning */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7136DD971C7E27FF005762DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7136DDC11C7E2848005762DC /* Examples.cpp in Sources */,
+				7136DDD41C7FD519005762DC /* Evaluator.cpp in Sources */,
+				7136DDC01C7E2848005762DC /* Example.cpp in Sources */,
+				7136DDC71C7E292E005762DC /* Performance.cpp in Sources */,
+				7136DDCA1C7E293B005762DC /* KNN.cpp in Sources */,
+				7136DDBE1C7E2848005762DC /* TrainTestSets.cpp in Sources */,
+				7136DDD71C8330ED005762DC /* knn-main.cpp in Sources */,
+				7136DDBD1C7E2848005762DC /* Attributes.cpp in Sources */,
+				7136DDD01C7E2976005762DC /* NaiveBayes.cpp in Sources */,
+				7136DDDA1C833104005762DC /* nb-main.cpp in Sources */,
+				7136DDC41C7E2914005762DC /* Classifier.cpp in Sources */,
+				7136DDBF1C7E2848005762DC /* DataSet.cpp in Sources */,
+				7136DDBB1C7E2848005762DC /* NumericAttribute.cpp in Sources */,
+				7136DDB91C7E2848005762DC /* Attribute.cpp in Sources */,
+				7136DDBA1C7E2848005762DC /* AttributeFactory.cpp in Sources */,
+				7136DDBC1C7E2848005762DC /* NominalAttribute.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7136DDA01C7E27FF005762DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7136DDA11C7E27FF005762DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7136DDA31C7E27FF005762DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7136DDA41C7E27FF005762DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7136DD961C7E27FF005762DC /* Build configuration list for PBXProject "Project_2_MachineLearning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7136DDA01C7E27FF005762DC /* Debug */,
+				7136DDA11C7E27FF005762DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7136DDA21C7E27FF005762DC /* Build configuration list for PBXNativeTarget "Project_2_MachineLearning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7136DDA31C7E27FF005762DC /* Debug */,
+				7136DDA41C7E27FF005762DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7136DD931C7E27FF005762DC /* Project object */;
+}

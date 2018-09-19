@@ -1,0 +1,243 @@
+
+Data Dictionary
+
+Customer
+    Holds info about Customer 
+    
+    customer_id:
+        Primary key, serial
+
+    customer_email:
+        Email of customer
+
+    password:
+        Password of customer
+
+    first_name:
+        First name of customer
+
+    last_name:
+        Last name of customer
+
+    street_address:
+        Street address of customer
+
+    city:
+        City of customer
+
+    state:
+        State of customer
+
+    zip_code:
+        Zip code of customer 
+
+Customer_Preferences
+    Holds info about Customer_Preferences
+
+    (customer_id, preference_type, preference):
+        Primary Key, Composite
+
+    customer_id:
+        Foreign key, Int 
+
+    preference_type:
+        Preference type of customer
+
+    preference:
+        Preference of customer
+
+
+Customer_Design
+    Holds info about Customer_Design
+
+    design_id:
+        Primary key, serial
+
+    customer_id:
+        Foreign Key, Int
+
+    template_id:
+        Foreign key, Int
+
+    user_design_name:
+        Design name defined by user
+
+    design_date:
+        Date of design
+
+    design_filename:
+        Filename of design
+
+    design_custom_text:
+        Custom design text
+
+    design_font_size:
+        font size of design text 
+
+    design_font_color:
+        font color of design text
+
+
+Customer_Artwork
+    Holds info about Customer_Artwork
+
+    artwork_id:
+        Primary key, serial 
+
+    customer_id:
+        Foreign key, Int
+
+    design_id:
+        Foreign key, Int
+
+    art_filename:
+        Filename for customer artwork 
+
+
+Design_Template
+    Holds info about Design_Template
+
+    template_id:
+        Primary key, serial 
+
+    template_name:
+        name of template
+
+    template_description:
+        description of template
+
+    template_filename:
+        filename of template 
+
+
+Product 
+    Holds info about Product
+
+    product_sku:
+        Primary key, serial 
+
+    product_name:
+        Name of product
+
+    product_price:
+        Price of product
+
+    product_image:
+        Image of product
+
+    product_description:
+        Description of product
+
+
+Product_Category
+    Holds info about Product_Category
+
+    (product_sku, product_category):
+        Primary key, Composite 
+
+    product_sku:
+        Foreign Key, Int
+
+    product_category:
+        Category of the product 
+
+
+Product_Options
+    Holds info about Product_Options
+
+    (product_sku, product_option_type, option_value):
+        Primary Key, Composite
+
+    product_sku:
+        Foreign Key, Int
+
+    product_option_type:
+        Option type of product 
+
+    option_value:
+        Value of production option type
+
+
+Customer_Product_Details
+    Holds info about Customer_Product_Details
+
+    (customer_id, product_sku, order_id, design_id):
+        Primary Key, Composite
+
+    customer_id:
+        Foreign Key, Int
+
+    product_sku:
+        Foreign Key, Int
+
+    order_id:
+        Foreign Key, Int
+
+    design_id:
+        ID of design, Int 
+
+    product_price:
+        Price of product
+
+    product_size:
+        Size of Product 
+
+    product_quantity:
+        Quantity of product 
+
+
+Transaction
+    Holds info about Transaction
+
+    transaction_id:
+        Primary Key, Int 
+
+    transaction_date:
+        Date of transaction
+
+    total_price:
+        Total price of transaction
+
+    customer_id:
+        ID of transaction customer 
+
+    street_address_1:
+        First street address of transaction customer 
+
+    street_address_2:
+        Second street address of transaction customer 
+
+    city:
+        City of transaction customer 
+
+    state:
+        State of transaction customer 
+
+    zip_code:
+        Zip code of transaction customer 
+
+    credit_card_number:
+        Credit card number of transaction customer 
+
+    credit_card_expiration_date:
+        credit card expiration date of transaction customer 
+
+    credit_card_security_code:
+        credit card security code of transaction customer 
+
+    approval_code:
+        approval code of transaction customer 
+
+
+
+
+
+
+
+
+
+
+
+
+
+

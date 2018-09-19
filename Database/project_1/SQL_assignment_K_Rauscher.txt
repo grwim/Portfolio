@@ -1,0 +1,43 @@
+SELECT dept_nbr, dept_location
+FROM department;
+
+SELECT emp_nbr, emp_first_name, emp_last_name, salary
+FROM employee
+WHERE employee.salary = (SELECT MAX(salary) FROM employee);
+
+SELECT e.emp_nbr, e.emp_first_name, e.emp_last_name, s.grade_level
+FROM employee e, salary_grade s
+WHERE (e.salary > s.low_salary) AND (e.salary < s.high_salary);
+
+SELECT dept_name, emp_first_name, emp_last_name FROM employee.department WHERE employee.dept_nbr - department.dept_nbr;
+ 
+SELECT COUNT(*)
+FROM department;
+
+SELECT d.dept_nbr, d.dept_name, COUNT(e.emp_nbr) "employee count"
+FROM department d, employee e
+WHERE d.dept_nbr = e.dept_nbr
+GROUP BY d.dept_nbr;
+
+SELECT  emp_job_title, AVG(salary)
+FROM employee
+WHERE emp_job_title IN (SELECT emp_job_title FROM employee)
+GROUP BY employee.emp_job_title;
+
+SELECT MIN(salary_grade.grade_level) "min grade lvl for accountant"
+FROM employee, salary_grade
+WHERE employee.emp_job_title = 'ACCOUNTANT';
+
+INSERT INTO employee(emp_nbr, emp_first_name, emp_last_name, emp_job_title, mgr_nbr, hire_date, salary, dept_nbr) 
+VALUES (396, 'Konrad', 'Rauscher', 'student', 4000, '2017-02-23', 2000, 80);
+
+INSERT INTO salary_bonus(emp_nbr, bonus_date, bonus_amt)
+VALUES (396, '2017-02-23', 100);
+
+UPDATE salary_bonus
+SET bonus_amt = bonus_amt*2
+WHERE salary_bonus.emp_nbr = 396;
+
+DELETE FROM salary_bonus
+WHERE emp_nbr = 396;
+
